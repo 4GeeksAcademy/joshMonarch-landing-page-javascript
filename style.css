@@ -1,0 +1,58 @@
+html, body {
+    font-family: "Roboto", sans-serif !important;
+}
+
+header {
+    height: 10vh;
+}
+
+.wrapper {
+    height: 80vh;
+}
+
+.hero,
+.contacts {
+    background: url(./img/bg-masthead.jpg) no-repeat;
+}
+
+.hero {
+    height: 90vh;
+    background-position: center;
+}
+
+.hero-title {
+    width: 65%;
+}
+
+form {
+    width: 55%;
+}
+
+input {
+    width: 60%;
+    border-radius: 3px;
+    border-width: thin;
+}
+
+.intro-features {
+    padding: 10% 0 10% 0;
+}
+
+.contacts {
+    background-position: bottom;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+}
+
+.wrapper section:last-child() {
+    height: 10vh;
+}
+
+.list-inline-item:nth-child(n + 2)::before {
+    content: "·";
+    position: relative;
+    right: 10px;
+}
